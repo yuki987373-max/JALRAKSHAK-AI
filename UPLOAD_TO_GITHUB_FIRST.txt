@@ -1,0 +1,21 @@
+JALRAKSHAK AI v3.0.0 — RENDER DEPLOYMENT PACKAGE
+
+IMPORTANT: Upload the CONTENTS of this project folder to the ROOT of your GitHub repository.
+Do not upload this ZIP file as a single file.
+
+Required files include:
+- package.json
+- render.yaml
+- vite.config.js
+- index.html
+- src/sensorGatewayPlugin.js  <-- required by vite.config.js
+- src/ (the rest of the application source)
+- public/
+
+On GitHub, the required plugin must appear at exactly:
+  src/sensorGatewayPlugin.js
+
+Do not put the project inside an extra nested project folder in the GitHub repository.
+Do not upload node_modules. Render installs dependencies during the build.
+
+After all files are uploaded and committed to the default branch, return to Render and deploy the Blueprint again.
